@@ -1,0 +1,103 @@
+section{
+    background-color: #2d2e32;
+    display: inline-block;
+    margin-bottom: -33px;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Roboto Slab', serif;
+}
+.white-text{
+    font-size: 20px;
+}
+.heading{
+    font-size: 40px;
+}
+
+.green-text{
+    color:#64f4ab;
+    font-size: 20px;
+}
+.parent-div{
+    display: flex;
+    margin-top: 140px;
+}
+.child-div{
+    flex: 1;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    width: 50%;
+    margin-left: 40px;
+}
+
+/*Start of form*/
+textarea{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-style: normal;
+    border-radius: 14px;
+    padding: 20px 25px;
+    background-color: #25262a;
+    border-style: solid;
+    border-width: 1px;
+    border:  1px solid #64f4ab;
+    color: #2d2e32;
+}
+#fullname, #email{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-style: normal;
+    border-radius: 14px;
+    padding: 20px 46px;
+    background-color: #25262a;
+    border-style: solid;
+    border-width: 1px;
+    border:  1px solid #64f4ab;
+    color: #2d2e32;
+}
+input[type=submit] {
+    float: left;
+    font-family: "Montserrat",Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #2d2e32;
+    background-color: #ffaf29;
+    width: 192px;
+    height: 60px;
+    border: none;
+    border-radius: 18px;
+    padding: 0;
+    margin: 20px 0 0;
+    box-shadow: 0px 10px 15px 0px rgba(255,174.99999999999997,40.99999999999999,.25098039215686274);
+    transition: all ease-out .3s;
+}
+
+
+.b3, .b4{
+
+    background-color: rgba(53, 53, 53, 0.76);
+    color: black;
+    padding: 5px;
+    border: none;
+    border-radius: 295px;
+    width: 17%;
+    height: 100px;
+    cursor:pointer;
+    font-size: 15px;
+}
+.fa-envelope, .fa-phone{
+    color: #64f4ab;
+    font-size: 30px;
+}
+.fa-envelope:hover, .fa-phone:hover{
+    color: black;
+}
+.b3:hover, .b4:hover{
+    background-color:#ffaf29;
+}
+.sec-div2 input[type=submit]:hover{
+    background-color:#eda324b0;
+}
+

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Slab:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/x-icon" href="/Data/logo.png">
+    <script src="https://kit.fontawesome.com/ea3bbaf6e5.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="icon" type="image/x-icon" href="/Data/logo.png">
+    <link rel="stylesheet" href="/CSS/contact-me-form.css">
+    <link rel="stylesheet" href="/CSS/Home.css">
+    <title>Contact - Freelancer - Phlox</title>
+</head>
+<body>
+    
+    <header>
+		<a class="jessy-logo" href="/HTML/Home.html"><img src="/Data/Screenshot (118).png" alt="Jessy"></a>
+		<nav>
+			<ul class="nav-links">
+				<li><a href="/HTML/Home.html">Home</a></li>
+				<li><a href="">Portfolio</a></li>
+				<li><a href="/HTML/contact-me-form.html">Contact</a></li>
+			</ul>
+			<ul class="nav-buttons">
+				<li><a href="/HTML/Home.html"><button class="b1" type="button"><i class="fab fa-dribbble"></i></button></a></li>
+				<li><a href="/HTML/contact-me-form.html"><button class="b2" type="button">Contact Me</button></a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+
+<section>
+<div class="parent-div">
+
+    <div class="sec-div1 child-div">
+        <p class="green-text">___ Contact Me</p><br>
+        <h1 class="heading">Get In Touch With Me</h1><br>
+        <p class="text white-text">The technological revolution is changing aspect of our lives, and <br>the fabric of society itself. it's also changing the way we learn and <br>what we learn. Factual knowledge is less prized when everything <br>you ever need to know can be found on your phone. There's no <br>imperative to be an expert Factual knowledge is less prized when everything you ever need to know can be found at doing everything.</p>
+
+        <br><br><br>
+        <div>
+            <button class="b3" type="button"><i class="fa fa-phone"></i></button>
+            <h2>Phone</h2><br>
+            <p>+99 (0) 101 0000 888 <br>+99 (0) 101 0000 777</p>
+        </div>
+        <br>
+        <div>
+            <button class="b4" type="button"><i class="fa fa-envelope"></i></button>
+            <h2>Email</h2><br>
+            <p>Info@yourdomain.com <br>Info@yourdomain.net</p>
+        </div>
+
+
+    </div>
+
+    <div class="sec-div2 child-div">
+        <form action="/submit" method="post">
+        <!-- Text input field -->
+        <input type="text" id="fullname" name="fullname" required placeholder="Full Name">
+
+        <!-- Email input field -->
+        <input type="email" id="email" name="email" required placeholder="Email">
+
+        <br>
+        <br><br>
+        <!-- Textarea -->
+        <textarea id="message" name="message" rows="12" cols="60" required placeholder="Message*"></textarea>
+        <br>
+        <br>
+        <!-- Submit button -->
+        <input type="submit" value="Send To Me">
+    </form>
+    </div>
+</div>
+</section>
+
+
+
+
+<!--Button to Scroll Up-->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+<script>
+// Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+<!--Message Bar-->
+<button onclick="topFunction()" id="myMsgBtn" title="Go to top"><i class="far fa-comment"></i></button>
+    <footer>
+		<a class="logo-ftr" href="/HTML/Home.html"> <img src="/Data/Screenshot (118).png" alt="Jessy"></a>
+		<div class="mid-ftr">
+		  <p>&copy; 2023 Freelancer-Phlox Elementor Wordpress Theme. All rights reserved.</p>
+		</div>
+		<div class="right-ftr">
+			<a href="/HTML/contact-me-form.html" ><i  class="fa fa-comment"  aria-hidden="true"></i></a>
+			<a href="/HTML/contact-me-form.html"><i  class="fa fa-linkedin"  aria-hidden="true"></i></a>
+			<a href="/HTML/contact-me-form.html"><i  class="fa fa-instagram"  aria-hidden="true"></i></a>
+			<a href="/HTML/contact-me-form.html"><i  class="fa fa-behance"  aria-hidden="true"></i></a>
+			
+	</div>
+		</footer>
+
+
+</body>
+</html>

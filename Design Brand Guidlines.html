@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/Data/logo.png">
+    <script src="https://kit.fontawesome.com/ea3bbaf6e5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/CSS/all Portfolio items.css">
+    <link rel="stylesheet" href="/CSS/Home.css">
+    <link rel="stylesheet" href="/CSS/contact-me-form.css">
+    <link rel="stylesheet" href="/CSS/Portfolio.css">
+    <title>Design Brand Guidlines - Freelancer - Phlox</title>
+</head>
+<body>
+    <!--Start of Header-->
+	<header>
+		<a class="jessy-logo" href="/HTML/Home.html"><img src="/Data/Screenshot (118).png" alt="Jessy"></a>
+		<nav>
+			<ul class="nav-links">
+				<li><a href="/HTML/Home.html">Home</a></li>
+				<li><a href="/HTML/Portfolio.html">Portfolio</a></li>
+				<li><a href="/HTML/contact-me-form.html">Contact</a></li>
+			</ul>
+			<ul class="nav-buttons">
+				<li><a href="/HTML/Home.html"><button class="b1" type="button"><i class="fab fa-dribbble"></i></button></a></li>
+				<li><a href="/HTML/contact-me-form.html"><button class="b2" type="button">Contact Me</button></a></li>
+			</ul>
+		</nav>
+	</header>
+	<!--End of Header-->
+
+
+
+    <section class="Portfolio-all-items-sec">
+    <div class="portfolio-items-main">
+
+        <div>
+            <img src="/Data/6th.jpeg" alt="Branding Nice Studio">
+        </div>
+
+        <div class="txt">
+        <h1 class="gr-txt">Design Brand Guidlines</h1><br>
+        <p class="sh-txt">I will give you a complete account of the <br> system, and expound the actual teachings <br> of the great explorer of the truth, the <br> master-builder of human happiness. No <br> one rejects, dislikes, or avoids pleasure itself, <br> because it is pleasure, but because those <br> who do not know how to pursue pleasure <br> rationally encounter consequences that are <br> extremely painful. Nor again is there anyone <br> who loves or pursues or desires to obtain <br> pain of itself, because it is pain, but <br> because those who do not know how to <br> pursue pleasure rationally</p>
+        <br> <br> <br>
+        <div class="icons2">
+            <p><button class="likes-btn"><i class="fa fa-heart"></i></button>&nbsp;&nbsp;&nbsp;Likes (129)</p>
+            <p><button class="share-btn"><i class="fa fa-share-alt"></i></button>&nbsp;&nbsp;&nbsp;Share</p>
+        </div><br><br><br>
+            <div class="y-w-txt">
+                <h2 class="y-txt">Categories</h2>
+                <p class="w-txt">App Design</p>
+                <br><br>
+                <h2 class="y-txt">Client</h2>
+                <p class="w-txt">Company Name</p><br>
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+
+    
+<!--Button to Scroll Up-->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+<script>
+// Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+<!--Message Bar-->
+<button onclick="topFunction()" id="myMsgBtn" title="Go to top"><i class="far fa-comment"></i></button>
+
+<!--Footer-->
+	<footer>
+		<a class="logo-ftr" href="/HTML/Home.html"> <img src="/Data/Screenshot (118).png" alt="Jessy"></a>
+		<div class="mid-ftr">
+		  <p>&copy; 2023 Freelancer-Phlox Elementor Wordpress Theme. All rights reserved.</p>
+		</div>
+		<div class="right-ftr">
+			<a href="/HTML/Home.html" ><i  class="fa fa-comment"  aria-hidden="true"></i></a>
+			<a href="/HTML/Home.html" ><i  class="fa fa-linkedin"  aria-hidden="true"></i></a>
+			<a href="/HTML/Home.html"><i  class="fa fa-instagram"  aria-hidden="true"></i></a>
+			<a href="/HTML/Home.html"><i  class="fa fa-behance"  aria-hidden="true"></i></a>
+			
+	</div>
+		</footer>
+</body>
+</html>
